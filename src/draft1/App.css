@@ -7,32 +7,29 @@
   /*justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: #282c34;
-  font-family: "New York Medium";
 }
 
 .Row {
   display: flex;
 }
 
+.Profile {
+  /*flex: 50%;*/
+}
+
 .Profile-image {
-  /*height: 50vh;*/
-  /*margin-top: 6vh;*/
-  /*margin-left: 6vw;*/
-  /*margin-right: 6vw;*/
-  float: right;
+  height: 50vh;
+  margin-top: 6vh;
+  margin-left: 6vw;
+  margin-right: 6vw;
 
 }
 
-.warning {
-  text-align: center;
-  font-size: 3vmin;
-}
 
 h1 {
   font-size: calc(50px + 2vmin);
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 h2 {
@@ -47,12 +44,4 @@ h2 {
   padding-left: 10vw;
   color: #876D56;
   /*flex: 50%;*/
-}
-
-li {
-  margin: 10px 0;
-}
-
-a {
-  color: orange;
 }

@@ -6,12 +6,15 @@
   /*align-items: center;*/
   /*justify-content: center;*/
   font-size: calc(10px + 2vmin);
-  color: #282c34;
-  font-family: "New York Medium";
+  color: #876D56;
 }
 
 .Row {
   display: flex;
+}
+
+.Profile {
+  /*flex: 50%;*/
 }
 
 .Profile-image {
@@ -19,25 +22,20 @@
   /*margin-top: 6vh;*/
   /*margin-left: 6vw;*/
   /*margin-right: 6vw;*/
-  float: right;
 
 }
 
-.warning {
-  text-align: center;
-  font-size: 3vmin;
-}
 
 h1 {
-  font-size: calc(50px + 2vmin);
+  /*font-size: calc(50px + 2vmin);*/
+  font-size: 35px;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 h2 {
   font-size: calc(30px + 2vmin);
-  margin-bottom: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -46,13 +44,13 @@ h2 {
   padding-right: 10vw;
   padding-left: 10vw;
   color: #876D56;
-  /*flex: 50%;*/
 }
 
-li {
-  margin: 10px 0;
+.Left {
+  margin-left: calc(50px + 1vmin);
+  margin-right: calc(50px + 1vmin);
 }
 
-a {
-  color: orange;
+.Right {
+  margin: 0;
 }
