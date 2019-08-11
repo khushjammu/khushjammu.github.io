@@ -20,21 +20,18 @@ function App() {
 	      
 		<h2>Who am I? (~2min)</h2>
 			<p>I was born in Malaysia, where I spent my formative years. I moved to Hong Kong when I was nine years old. Between adjusting to a new school and trying out Hong Kong’s food, I developed an interest in programming after reading Stealing the Network.</p>
-			<p>Then I moved to Singapore. In Grade 9, I met two people who would come to be very important to my journey: Taichi and Arya. We hit it off immediately and ended up winning a hackathon together with Questo: an app that generated simple fill-in-the-blank questions from pictures of a textbook page.</p>
+			<p>Then I moved to Singapore. In Grade 9, I met two people who would come to be very important to my journey: <a href="https://taichikato.com">Taichi</a> and <a href="https://www.aryavohra.com/">Arya</a>. We hit it off immediately and ended up winning a hackathon together with Questo: an app that generated simple fill-in-the-blank questions from pictures of a textbook page.</p>
 			<p>Around that time I met a senior whom I really respect, who was about to graduate in my high-school. In many senses, he was a role-model for all three of us and he encouraged us to pursue our interests. Between that and reading Cal Newport’s High-School Superstar, I decided to start treating HS as a day job and maximise the amount of free time I have to do my own thing. </p>
-			<p>And it worked! I’ve managed to get decent grades with a ton of free time, and I’ve used that time to win hackathons, build cool stuff with Taichi and Arya, hang out with my girlfriend, gym, read. Along the way, my friends have ruined my music taste with Anderson .Paak and older Kendrick, damn them. (Seriously though, <a href="https://open.spotify.com/album/0YF8PfcGbsKg5IaFyPnlyY?si=sI0oG1kNQ8-neJMpOxnYhQ">Ventura</a> is sexy.)</p>
+			<p>And it worked! I’ve managed to get a ton of free time, which I’ve used that time to win hackathons, build cool stuff with Taichi and Arya, gym, and read. Along the way, my friends have ruined my music taste with Anderson .Paak and older Kendrick, damn them. (Seriously though, <a href="https://open.spotify.com/album/0YF8PfcGbsKg5IaFyPnlyY?si=sI0oG1kNQ8-neJMpOxnYhQ">Ventura</a> is sexy.)</p>
 			<p>So yeah, that’s me. I’m graduating high-school in just under a year and I can’t wait to see what comes next. I love meeting cool people so if you wanna do anything from geek out over a book to chat about a cool project HIT ME UP.</p>
 			<p>✌️</p>
 
 
 		<div className="social">
-			<p><a href="https://twitter.com/khushjammu">Twitter</a></p>
-			<p><a href="https://news.ycombinator.com/item?id=16637415">LinkedIn</a></p>
-			<p><a href="https://news.ycombinator.com/item?id=16637415">Stackoverflow </a></p>
+			{/* https://www.quora.com/How-do-you-add-a-tab-space-in-HTML */}
+			<p><a href="mailto:khushjammu@gmail.com" target="_top">Email</a>&ensp;<a href="https://twitter.com/khushjammu">Twitter</a>&ensp;<a href="https://www.linkedin.com/in/khush-jammu-1aa422132/">LinkedIn</a></p>
+			
 		</div>
-	        
-
-
 
 
 		<h2>What I’m doing now ({"<1min"})</h2>
@@ -84,7 +81,7 @@ function App() {
 	        </li>
 	        <li><b>SWSG Mega 2017</b> (~250 participants)
 	          <ul><li>
-	            Won Most Creative Prize w/ $40k in prizes! Made Photonify: a photography assistant that helps you take better photos by guiding your composition. Got literal wows when demo-ing on stage. Even cooler, a photo of me making history notes on stage became a meme.
+	            Won Most Creative Prize w/ $40k in prizes! Made <a href="http://getphotonify.mystrikingly.com/">Photonify</a>: a photography assistant that helps you take better photos by guiding your composition. Got literal wows when demo-ing on stage. Even cooler, a photo of me making history notes on stage became a meme.
 	            (Press: <a href="https://www.gic.com.sg/news-and-resources/startup-weekend-singapore-swsg-mega-2017-winners-announced/">1</a> <a href="https://perspectives.uwcsea.edu.sg/community-news/hacking-their-way-top-grade-10s-win-startup-weekend-singapore-2017">2</a> <a href="http://communities.techstars.com/singapore/singapore/startup-weekend/11281">3</a> <a href="https://www.straitstimes.com/business/companies-markets/startup-weekend-singapore-hackathon-gets-over-100-ideas">4</a> <a href="https://www.sgsme.sg/news/localised-travel-chatbot-wins-two-prizes-startup-weekend-singapore-hackathon">5</a>)
 	          </li></ul>
 	        </li>
