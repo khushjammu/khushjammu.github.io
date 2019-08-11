@@ -10,7 +10,7 @@ function App() {
 	    <h1>Khush Jammu 🚀</h1>
 
 		<div className="warning">
-			<p>total time {"<5min"}</p>
+			<p>total time {"<4min"}</p>
 		</div>
 
 		<center><img src={require('./assets/profile.png')} className="Profile-image"/></center>
