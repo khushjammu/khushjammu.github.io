@@ -57,7 +57,7 @@ function App() {
 	    <div className="stuffdone"><ul>
 	        <li><b><a href="https://questo.ai/">Questo</a></b>
 	          <ul><li>
-	            A way for me to effect change in what I see is a broken aspect of education — an emphasis on retention of facts and the such. Received $120k in subsidised cloud funding from Google and IBM. 140+ upvotes on <a href="https://news.ycombinator.com/item?id=16637415">HackerNews</a> and front-page of <a href="https://questo.ai/">ProductHunt</a> with 500+ upvotes! Currently running a beta. Have spent 3yrs++ working on it (since I was in Grade 9). 
+	            A way for me to effect change in what I see is a broken aspect of education — an emphasis on retention of facts and the such. Received $120k in subsidised cloud funding from Google and IBM. 140+ upvotes on <a href="https://news.ycombinator.com/item?id=16637415">HackerNews</a> and front-page of <a href="https://www.producthunt.com/posts/questo">ProductHunt</a> with 500+ upvotes! Currently running a beta. Have spent 3yrs++ working on it (since I was in Grade 9). 
 	          </li></ul>
 	        </li>
 	        <li><b>Hack & Roll 2019</b> (~230 participants)
