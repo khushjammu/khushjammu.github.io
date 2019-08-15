@@ -14,7 +14,7 @@ function App() {
 
 		<center><img src={require('./assets/profile.png')} className="Profile-image"/></center>
 
-		<p>My name is Khush. I'm a high-school student by day and developer by night. I was born in Malaysia, lived in Hong Kong for a few years, and now live in Singapore. I'm love programming, philosophy, and reading!</p>
+		<p>My name is Khush. I'm a high-school student by day and developer by night. I was born in Malaysia, lived in Hong Kong for a few years, and now live in Singapore. I'm love programming, philosophy, and reading! I'm doing some development consulting work on the side too, and I'm excited to see how that goes.</p>
 
 	      
 		<h2>Who am I? (~2min)</h2>
