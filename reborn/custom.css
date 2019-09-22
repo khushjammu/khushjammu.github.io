@@ -1,0 +1,12 @@
+p.go-back {
+    font-style: italic;
+    margin-top: 1rem;
+    /*margin-bottom: 1rem;*/
+    /*font-size: 1.5rem;*/
+    display: block;
+    line-height: 1;
+}
+
+section.first-section-bit {
+    padding-bottom: 0; 
+}
