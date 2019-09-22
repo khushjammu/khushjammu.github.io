@@ -6,18 +6,18 @@ function App() {
   return (
     <div className="App">
 	    <div className="Text">
-	    <h1>Khush Jammu 🚀</h1>
-
-		<div className="warning">
-			<p>total time {"<4min"}</p>
-		</div>
+	    <h1>Khush Jammu</h1>
+	    	<div className="warning">
+	    		<p>total time {"<4min"}</p>
+	    	</div>
+		
 
 		<center><img src={require('./assets/profile.png')} className="Profile-image"/></center>
 
-		<p>My name is Khush. I'm a high-school student by day and developer by night. I was born in Malaysia, lived in Hong Kong for a few years, and now live in Singapore. I'm love programming, philosophy, and reading! I'm doing some development consulting work on the side too, and I'm excited to see how that goes.</p>
+		<p>My name is Khush. I'm a high-school student by day, and developer by night. I was born in Malaysia, lived in Hong Kong for a few years, and now live in Singapore. I'm love programming, philosophy, and reading! I'm doing some development consulting work on the side too, and I'm excited to see how that goes.</p>
 
 	      
-		<h2>Who am I? (~2min)</h2>
+		<h2>Who am I?</h2>
 			<p>I was born in Malaysia, where I spent my formative years. I moved to Hong Kong when I was nine years old. Between adjusting to a new school and trying out Hong Kong’s food, I developed an interest in programming after reading <i>Stealing the Network</i>.</p>
 			<p>Then I moved to Singapore. In Grade 9, I met two people who would come to be very important to my journey: <a href="https://taichikato.com">Taichi</a> and <a href="https://www.aryavohra.com/">Arya</a>. We hit it off immediately and ended up winning a hackathon together with Questo: an app that generated simple fill-in-the-blank questions from pictures of a textbook page.</p>
 			<p>Around that time I met a senior whom I really respect, who was about to graduate in my high-school. In many senses, he was a role-model for all three of us and he encouraged us to pursue our interests. Between that and reading Cal Newport’s <i>How to Be a High School Superstar</i>, I decided to start treating HS as a day job and maximise the amount of free time I have to do my own thing. </p>
@@ -31,7 +31,7 @@ function App() {
 		</div>
 
 
-		<h2>What I’m doing now ({"<1min"})</h2>
+		<h2>What I’m doing now</h2>
 			<ul>
 			<li>Working on Questo (see below for info)! 📚</li>
 			<li>Reading <i>Range</i> by David Epstein 📖</li>
@@ -40,7 +40,7 @@ function App() {
 			<li>Thinking about how I’m going to spend my years in NS (Singapore’s two-year national service) and beyond 👮‍♂️</li>
 			</ul>
 
-		<h2>My Favourite Books ({"<1min"})</h2>
+		<h2>My Favourite Books</h2>
 			<ul>
 			<li><i>Crime and Punishment</i> by Fyodor Doteyevsky 🔪 (my review <a href="https://www.goodreads.com/review/show/2806596992">here</a>)</li>
 			<li><i>The Master and Margarita</i> by Mikhail Bulgakov 👺</li>
