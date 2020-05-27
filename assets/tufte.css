@@ -65,8 +65,8 @@ h1 {
 }
 
 h2 {
-    font-style: italic;
-    font-weight: 400;
+    /*font-style: light;*/
+    font-weight: 100;
     margin-top: 2.1rem;
     margin-bottom: 1.4rem;
     font-size: 2.2rem;
