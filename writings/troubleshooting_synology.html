@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Khush Jammu</title>
+    <link rel="stylesheet" href="/assets/tufte.css"/>
+    <link rel="stylesheet" href="/assets/latex.css"/>
+    <link rel="stylesheet" href="/assets/custom.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+  </head>
+
+  <body>
+    <article>
+      <h1 id="tufte-css">Troubleshooting my Synology DiskStation</h1>
+      <p class="go-back">go back to: <a href="/">homepage</a>.</a></p>
+
+      <section>
+        <p>This is a collection of troubleshooting tips for a Synology NAS. I have a <a href="https://www.synology.com/en-sg/products/DS218">DS218+</a>, so your mileage may vary on other models.</p>
+      </section>
+
+      <section>
+        <h2>Connecting to an SMB share as a “guest”</h2>
+        <h3>Problem</h3>
+
+        <p>
+          I have a share on my NAS where I store scanned data. I wanted to use the Guest account to access it from my iPad or Mac. Frustratingly, it kept failing, saying I had “entered an invalid username/password.”
+        </p>
+
+        <h3>Solution</h3>
+
+        <p>
+          Surprisingly, Synology's documentation doesn't say much about using the <code>guest</code> account. Eventually, I found <a href="https://web.archive.org/web/20210313104013if_/https://www.synology.com/en-ph/knowledgebase/DSM/tutorial/File_Sharing/Why_cant_access_shared_folder">this</a> help page on troubleshooting connections to shared folders. A quick scan revealed an “Enable Local Master Browser” SMB option.
+        </p>
+
+        <figure>
+          <img src="/img/writings/troubleshooting_synology/hidden_option.png" alt="Image of a Rhinoceros">
+        </figure>
+
+        <p>Enabling it solved the problem!</p>
+      </section>
+
+    </article>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyApXNqbWBdUaIOeA3Bojd1MfP1FnRc-mBI",
+        authDomain: "personal-website-f0feb.firebaseapp.com",
+        databaseURL: "https://personal-website-f0feb.firebaseio.com",
+        projectId: "personal-website-f0feb",
+        storageBucket: "personal-website-f0feb.appspot.com",
+        messagingSenderId: "87597544456",
+        appId: "1:87597544456:web:d26e817b97f86aaf28cdbd",
+        measurementId: "G-4PPY1E7V1C"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+  </body>
+</html>
